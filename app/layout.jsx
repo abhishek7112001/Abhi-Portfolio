@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import { ToastContainer } from "react-toastify";
 
 const Jetbrains_Mono = JetBrains_Mono({ 
    subsets: ["latin"],
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
         <Header />
         <StairTransition />
         <PageTransition >{children}</PageTransition>
-
+        <ToastContainer position="top-right"/>
         </body>
     </html>
   );
