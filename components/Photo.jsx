@@ -15,13 +15,11 @@ const Photo = () => {
               transition: {delay:2.4, duration:0.4, ease:'easeInOut'},
           }}
             className="w-[298px] h-[298px]
-                mix-blend-lighten">
+                mix-blend-lighten relative">
                 <Image src="/assets/profile.png" priority quality={100} fill
                 alt="profile pic" className="object-contain"/>
             </motion.div>
-            <motion.svg>
-              <motion.circle />
-            </motion.svg>
+            
         </motion.div>
 
     </div>
