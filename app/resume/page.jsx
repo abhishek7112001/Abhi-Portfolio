@@ -15,7 +15,7 @@ import {SiTailwindcss,
 
 const about={
   title:"About me",
-  description: "I am a frontend Developer",
+  description: "As a dedicated Frontend Developer, I specialize in creating intuitive and engaging user interfaces for web applications. My expertise lies in translating design concepts into fully functional and visually appealing websites using the latest web technologies.",
   info: [
     {
       fieldName: "Name",
@@ -47,7 +47,7 @@ const about={
 const experience={
   icon:"/",
   title:"My Experience",
-  description: "I am a full-stack Developer",
+  description: "These are all my experiences",
   items:[
     {
       company:"Chegg India",
@@ -70,7 +70,7 @@ const experience={
 const education={
   icon:"/",
   title: "My Education",
-  description:"I am a frontend Developer",
+  description:"",
   items: [
     {
       institution:"D.A.V School",
@@ -95,7 +95,7 @@ const education={
 
 const skills={
   title: "My Skills",
-  description: "I am a frontend Developer",
+  description: "",
   items:[
     {
       name: "HTML",
