@@ -69,7 +69,7 @@ const Work = () => {
           <div className="container mx-auto">
             <div className="flex flex-col xl:flex-row xl:gap-[30px]">
               <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col 
-                      xl:justify-between order-2 xl:oredr-none">
+                      xl:justify-between xl:order-1  order-1 xl:oredr-none">
                         
                     <div className="flex flex-col gap-[30px] h-[50%] ">
                       <div className="text-8xl leading-none font-extrabold text-outline">
